@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Righteous|Teko|Ubuntu+Condensed');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-weight: normal;
+}
+.background{
+    width: 100%;
+    height: 100%;
+    background-image: url(/assets/images/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-y: auto;
+}
+
+.nav{
+    width: 350px;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    left: 0;
+}
+
+.nav a{
+    text-decoration: none;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    height: 90px;
+    margin: 5px 0;
+    background-color: #a4bcd8;
+    color: #02010f;
+    transition: 300ms;
+
+}
+
+a.active, .nav a:hover{
+    background-color: transparent;
+    color: #a4bcd8;
+    width: 100%;
+}
+
+.a{
+   width: 95%; 
+}
+
+.b{
+    width: 85%; 
+ }
+ .c{
+     width: 80%;
+ }
+ .d{
+     width: 90%;
+ }
+
+ .home{
+     position: fixed;
+     width: 500px;
+     height: 100px;
+     right: 0;
+     font-size: 3rem;
+     bottom: 5%;
+     color: #a4bcd8;
+     font-family: 'Ubuntu Condensed', Geneva, Tahoma, sans-serif;
+     background-color: #02010f; 
+ }
+
+ .about{
+    display: none;
+    position: absolute;
+    width: 900px;
+    height: 100px;
+    left: 30%;
+    font-size: 3rem;
+    top: 35%;
+    color: white;
+    font-family: 'Ubuntu Condensed', Geneva, Tahoma, sans-serif;
+
+ }
+
+ .about p{
+     background: rgba(3, 2, 18, .9); 
+     font-size: 25px;
+ }
+
+ .about img{
+     width: 10%;
+     background-color: none;
+     float: right;
+     position: relative;
+     right: 20px;
+     bottom: 40px;
+ }
