@@ -18,6 +18,7 @@ html, body{
     background-size: cover;
     position: relative;
     overflow-y: auto;
+    
 }
 
 .nav{
@@ -90,6 +91,7 @@ a.active, .nav a:hover{
  .about p{
      background: rgba(3, 2, 18, .9); 
      font-size: 25px;
+     margin-bottom: 2%; 
  }
 
  .about img{
